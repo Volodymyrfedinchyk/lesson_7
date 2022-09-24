@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@font-face{
+	font-family: "Aachen";
+	src: url("../fonts/AachenStd-Bold.woff2") format("woff2"),url("../fonts/AachenStd-Bold.woff") format("woff");
+	font-display:swap;
+	font-weight: 700;
+	font-style:normal;
+}
+@font-face{
+	font-family:"Parmigiano Text Pro";
+	src: url("../fonts/ParmigianoTextPro-Reg.woff2") format("woff2"),url("../fonts/ParmigianoTextPro-Reg.woff") format("woff");
+	font-display:swap;
+	font-weight: 400;
+	font-style:normal;
+}
+
+@font-face{
+	font-family:"Proxima Soft";
+	src: url("../fonts/ProximaSoft-Black.woff2") format("woff2"),url("../fonts/ProximaSoft-Black.woff") format("woff");
+	font-display:swap;
+	font-weight:900;
+	font-style:normal;
+} 
+
+.wrapper{
+	color: white;
+	background-size:cover;
+	background-image:linear-gradient(180deg, rgba(28, 28, 26, 1) 0%, rgba(121, 113, 121, 1) 94%);
+	background-repeat:no-repeat; 
+}
+
+header{
+	background-image: url('../img/2.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.header__container{
+	font-family: "Proxima Soft";
+	font-size: 40px;
+	color: rgb(88, 33, 33);
+	text-align: center;
+	padding: 5px 280px 20px 280px ;
+}
+.dreams p{
+	font-family:"Parmigiano Text Pro";
+	padding-left: 40px;
+	line-height: 20px;
+	max-width: 50%;
+	color: rgb(102, 71, 71);
+	font-weight: 700;
+}
+.image{
+	display:block;
+	margin-left: 901px;
+	margin-top: -100px;
+	box-shadow: 3px 3px rgb(64, 62, 62), -1em 0 .4em rgb(62, 62, 61);
+	max-width: 560px
+}
+
+.text-item{
+	font-family: "Parmigiano Text Pro";
+	font-size: 20px;
+	display: inline-block;
+	max-width: 763px;
+	padding-left: 0px; 
+	padding-right: 30px;
+	margin: 0 auto 0 0;
+	/* outline: 1px solid; */
+	color: rgb(179, 179, 165);
+	margin-left: 40px;
+	text-shadow: -3px 0px 7px rgba(0, 0, 0, 0.58);
+}
+h3{
+	font-family: "Proxima Soft";
+	font-size: 35px;
+	text-align: center;
+	color: rgb(59, 52, 54);
+}
+
+.right{
+	display: inline-block;
+	margin: 0 0 0 auto;
+	margin-left: 100px;
+	max-width: 300px;
+	outline: 1px solid;
+}
+.independent{
+	color: brown;
+}
+
+.independent:hover{
+	text-decoration: underline;
+}
+
+.compromises{
+	font-family: "Parmigiano Text Pro";
+	font-size: 20px;
+	margin: 0 auto 0 600px;
+	line-height: 30px;
+	color: rgb(159, 147, 150);
+	text-shadow: -3px 0px 7px rgba(0, 0, 0, 0.58);
+}
+.image-2{
+	margin-top: -100px;
+	box-shadow: 3px 3px rgb(63, 62, 62), -1em 0 .4em rgb(71, 71, 70);
+	max-width: 475px;
+	margin-left: 20px;
+	margin-bottom:   100px;
+}
+.punish{
+	box-shadow:-10px  -40px 20px rgb(0, 0, 0);
+	background-color: black;
+	color: aliceblue;
+	padding-bottom: 100px;
+	margin-left: -100px;
+	margin-right: -100px;
+	text-align: center;
+	font-size: 100px;
+}
+.courses-container{
+	max-width: 812px;
+	min-height: 100%;
+	margin: 0 auto;
+	font-family: 'Lato';
+	font-weight: 400;
+}
+.title{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	margin-bottom: 40px;
+}
+.imeg{
+	max-width: 100%;
+	border-radius: 4px;
+	margin-bottom: 53px;
+}
+.bolt-text{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+}
+.dictum{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 48px;
+}
+.semper{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	padding-left: 58px;
+	margin-bottom: 48px;
+}
+.mattis{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 24px;
+}
+.list{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 24px;
+}
+.vitae{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 100px;
+}
+.gravida{
+	max-width: 500px;
+	min-height: 100%;
+	margin: 0 auto;
+	font-size: 20px;
+	line-height: 30px;
+	color: aliceblue;
+}
+.gravida h3{
+	color: aliceblue;
+}
+.ornare{
+	background-image: url('../img/8.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%  150%;
+	
+}
+
+
+	
